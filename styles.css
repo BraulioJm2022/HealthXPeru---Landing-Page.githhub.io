@@ -1,0 +1,1574 @@
+
+
+/*LANDING PAGE*/
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Header */
+
+header {
+    background-color: #ffffff;
+    color: #003346;
+    padding: 0px 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+.header-container {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.icono_header{
+    max-width: 100%;
+    margin: 0;
+    margin-right: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0px 0px;
+    margin-left: 0px;
+    gap: 50px; 
+    align-items: center;
+}
+
+.botones_header  {
+    display: flex;
+    gap: 20px; 
+    color: #003346;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #003346;
+    margin-right: 80px;
+}
+
+nav a {
+    font-family: 'Poppins',semi-bold;
+    text-decoration: none;
+    color: #2D2D2D;
+}
+
+nav a:hover{
+    font-family: 'Poppins',semi-bold;
+    text-decoration: none;
+    color: #25CCA4;
+    transition:  color 0.2s;
+}
+
+.Registrar a {
+    text-decoration: none;
+    color: #2D2D2D;
+    text-align: right;
+    margin-right: 0; 
+}
+
+.Registrar a:hover {
+    text-decoration: none;
+    color: #25CCA4;
+    text-align: right;
+    margin-right: 0; 
+    transition:  color 0.2s;
+
+}
+
+.Iniciar a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #D8135F;
+    padding: 20px 30px;
+    border-color: white;
+    border-radius: 30px 0px 0px 30px;
+    transition: background-color 0.2s, color 0.2s;
+
+}
+
+.Iniciar a:hover{
+    color: #D8135F;
+    background-color: #ffffff;
+}
+
+/* Inicio */
+
+#inicio {
+    background-color: #ffffff;
+    padding: 90px 0px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 800px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.inicio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+    text-align: center;
+    gap: 100px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.inicio-left {
+    text-align: left;
+    max-width: 100%;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.inicio_right{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0px;
+    margin-right: 0px;
+}
+
+.bienvenido {
+    color: #25CCA4;
+    text-transform: uppercase;
+    font-family: 'Poppins',bold;
+    font-size: 25pt;
+    letter-spacing: 9px;
+    padding: 0px;
+
+}
+
+.slogan_inicio{
+    font-size: 40pt;
+    font-weight: bold;
+    font-family: 'Poppins';
+    color: #25CCA4;
+    line-height: 99%; 
+}
+
+.peruanos{
+    color: #D8135F;
+}
+
+.parrafo_inicio{
+    color: #8b8899;
+    font-size: 15pt;
+}
+
+.boton_container{
+    margin-top: 60px;
+    display: flex;
+    text-decoration: none;
+    font-size: 18pt;
+    font-weight: 700;
+}
+
+.mapa a, .info a {
+    display: in;
+    text-decoration: none;
+    margin: 10px;
+    padding: 20px 60px;
+    border-radius: 38px;
+    cursor: pointer;
+}
+
+.mapa a{
+    text-decoration: none;
+    background-color: #25CCA4;
+    color: #fff;
+}
+
+.mapa a:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #25CCA4;
+}
+
+.info a{
+    text-decoration: none;
+    background-color: #ffffff00;
+    color: #25CCA4;
+    border: solid;
+    border-color: #25CCA4;
+    border-width: 3px;
+}
+
+.info a:hover{
+    text-decoration: none;
+    background-color: #25CCA4;
+    color: #ffffff;
+}
+
+/* Nosotros */
+
+#nosotros {
+    background-image: url(images/fondo_nosotros.svg);
+    padding: 0px 0px;
+    background-size: cover;
+    background-position: center center;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.titulo_nosotros{
+    text-align: center;
+    color: #063647;
+    font-size: 70pt;
+    font-family: 'Poppins', regular;
+    margin: 0px;
+}
+
+.nosotros-container {
+
+    text-align: center;
+    display: inline-flex;
+    padding: 0px 0px;
+    color: #ffffff;
+    font-size: 18pt;
+    font-family: 'Poppins', regular;
+}
+
+.imagen_nosotros1{
+    max-width: 500px;
+}
+.imagen_nosotros2{
+    max-width: 500px;
+}
+.imagen_nosotros3{
+    max-width: 500px;
+}
+
+.texto1_nosotros{
+    margin: 35px;
+    font-family: 'Poppins', regular;
+
+}
+
+.texto2_nosotros{
+    margin: 35px;
+    font-family: 'Poppins', regular;
+
+}
+
+.texto3_nosotros{
+    margin: 35px;
+    font-family: 'Poppins', regular;
+
+}
+
+
+/* Servicios */
+
+#servicios {
+    background-image: url(images/fondo_servicios.svg);
+    background-position: center center;
+    background-size: cover;
+    height: 900px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.servicios-titulo{
+    color: #ffffff;
+    font-family: 'Poppins', bold;
+    font-size: 50pt;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.servicios-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0px;
+    gap: 300px;
+}
+
+.servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    
+}
+
+.servicio-item1 a,
+.servicio-item2 a,
+.servicio-item3 a,
+.servicio-item4 a,
+.servicio-item5 a,
+.servicio-item6 a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 15pt;
+    font-weight: bold;
+    background-color: #ffffff; 
+    color: #063647; 
+    text-align: center;
+    text-decoration: none;
+    padding: 100px 50px; 
+    border-radius: 30px 30px 30px;
+    height: 50px; 
+    line-height: 20px; 
+    box-shadow: 5px 10px 10px rgba(0, 0, 0.1, 0.1); /* Sombra con 5px de desenfoque y opacidad 0.5 */
+    width: 100px; /* Ancho deseado */
+    height: 100px; /* Altura deseada */
+}
+
+.servicio-item1 a:hover,
+.servicio-item2 a:hover,
+.servicio-item3 a:hover,
+.servicio-item4 a:hover,
+.servicio-item5 a:hover,
+.servicio-item6 a:hover {
+    background-color: #ffffff;
+    color: #063647; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); /* Sombra con 5px de desenfoque y opacidad 0.5 */
+
+}
+
+/* DESCARGA */
+
+#descarga {
+    background-color:#000000;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+
+}
+
+.descarga-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descarga-grid {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    
+}
+
+.descarga-item1,
+.descarga-item2
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+
+}
+
+/* Contacto */
+
+#contacto {
+    background-color: #fff;
+    padding: 50px 20px;
+    color: #003346;
+    flex-direction: column;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+    
+}
+
+.contacto_titulo{
+    font-size: 50pt;
+
+}
+
+.parrafo_contacto{
+    font-size: 15pt;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+.contacto_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 0px;
+    text-decoration: none;
+    padding: 0px 0px;
+    max-width: 280px;
+    
+}
+
+.contacto-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    height: 800px;
+    max-width: 100%;
+    gap: 200px;
+}
+
+.contacto-info {
+    flex: 1;
+    text-align: left;
+}
+
+.formulario label {
+    display: block;
+    align-items: center;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.formulario{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003346;
+    padding: 50px;
+    border-radius: 60px 60px 60px 60px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 30px 30px 30px 30px;
+    font-family: 'Poppins';
+}
+
+.formulario button {
+    cursor: pointer;
+    background-color: #25CCA4;
+    color: #fff;
+    font-size: 10pt;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.formulario button:hover {
+    font-family: 'Poppins';
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #25CCA4;
+    font-size: 10pt;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    text-decoration: none;
+    margin-top: 15px;
+
+}
+
+
+@media screen and (max-width: 1160px) {
+    
+    /* Header */
+    header {
+        background-color: #ffffff;
+        color: #003346;
+        padding: 0px 0px;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+    }
+    
+    .nosotros_subtitulo,
+    .servicios_subtitulo,
+    .descarga_subtitulo,
+    .contacto_subtitulo   
+    {
+        display: none;
+    }
+    
+   
+    
+    .Registrar a {
+        text-decoration: none;
+        color: #2D2D2D;
+        text-align: right;
+        margin-right: 0; 
+    }
+    
+    .Registrar a:hover {
+        text-decoration: none;
+        color: #25CCA4;
+        text-align: right;
+        margin-right: 0; 
+        transition:  color 0.2s;
+    
+    }
+    
+    .Iniciar a{
+        text-decoration: none;
+        color: #fff;
+        background-color: #D8135F;
+        padding: 20px 30px;
+        border-color: white;
+        border-radius: 30px 0px 0px 30px;
+        transition: background-color 0.2s, color 0.2s;
+    
+    }
+    
+    .Iniciar a:hover{
+        color: #D8135F;
+        background-color: #ffffff;
+    }
+    
+
+
+    /* Inicio */
+    #inicio {
+        height: 1000px;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .inicio-container {
+        flex-direction: column; 
+        padding: 0px 0px;    
+    }
+
+   
+    .inicio-left {
+        max-width: 85%; 
+    }
+
+    .inicio_right {
+        display: none;
+    }
+
+    .bienvenido{
+        display: none;
+    }
+
+    .slogan_inicio{
+        text-align: center;
+    }
+
+    .parrafo_inicio {
+        display: flex;
+        font-size: 1.5em;  
+        text-align: center;  
+    }
+
+    .boton_container {
+        display: flex;
+        gap: 60px;
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .boton_info a,
+    .boton_mapa a{
+        max-width: 100%;
+        padding: 20px 30px; 
+        font-size: 24pt;
+        border-radius: 40px;
+    }
+
+   
+
+    
+
+    /* Nosotros */
+    #nosotros {
+        height: 2800px;
+        padding: 0px 0px;
+        background-image: none;    
+        background-color: #063647;
+        align-items: center;
+    }
+
+    .titulo_nosotros {
+        font-size: 60pt; 
+        color: #ffffff;
+    }
+
+    .nosotros-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagen_nosotros1,
+    .imagen_nosotros2,
+    .imagen_nosotros3 {
+        max-width: 80%; /* Ajusta el ancho máximo */
+    }
+
+    .texto1_nosotros,
+    .texto2_nosotros,
+    .texto3_nosotros {
+        font-size: 20pt;
+        margin: 0;
+    }
+
+
+
+    /* Servicios */
+    #servicios {
+        height: 1500px; 
+        padding: 30px 50px;    
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .servicios-titulo {
+        font-size: 50pt; 
+        text-align: center;
+    }
+
+    .servicios-container {
+        flex-direction: column;
+        align-items: center; 
+        gap: 30px;
+        padding: 0px 0px;
+    }
+
+    .servicios-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px; 
+    }
+
+    .servicio-item1 a,
+    .servicio-item2 a,
+    .servicio-item3 a,
+    .servicio-item4 a,
+    .servicio-item5 a,
+    .servicio-item6 a {
+        font-weight: 600;
+        padding: 80px 80px; 
+        font-size: 20pt;
+        
+    }
+ 
+    /* Contacto */
+    #contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1200px;
+    }
+
+    .contacto-info{
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .contacto_titulo{
+        font-size: 60pt;        
+    }
+
+    .parrafo_contacto{
+        font-size: 20pt;
+    }
+
+
+    .contacto_grid{
+        align-items: center;
+        margin: 0px;
+        gap: 0px;
+        padding: 0px;
+        max-width: 100%;
+    }
+    
+    .parrafo_contacto{
+        text-align: center;
+    }
+    .contacto_titulo{
+        text-align: center;
+    }
+
+    .formulario{
+        display: none;
+    }
+
+    #descarga {
+        background-color:#000000;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+    
+    }
+    
+    .descarga-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .descarga-grid {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        
+    }
+    
+    .descarga-item1,
+    .descarga-item2
+     {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+        margin-bottom: 20px;
+        
+    
+    }
+
+}
+
+
+@media screen and (max-width: 430px) {
+
+    /* Header */
+    header {
+        background-color: #ffffff;
+        color: #003346;
+        padding: 20px 0px;
+        text-align: center;
+        max-width: 100%;
+    }
+    
+    .header-container{
+        display: flex ;
+        max-width: 100%;
+    }
+
+    .nosotros_subtitulo,
+    .servicios_subtitulo,
+    .descarga_subtitulo,
+    .contacto_subtitulo   
+    {
+        display: none;
+        margin: 0px;
+    }
+    
+   .botones_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    }
+    
+    .Registrar a {
+        text-decoration: none;
+        color: #2D2D2D;
+        text-align: center;
+    }
+    
+
+    
+    .Iniciar a{
+        width: 100%;
+        text-decoration: none;
+        color: #fff;
+        padding: 20px 10px;
+        border-color: white;
+        border-radius: 30px 0px 0px 30px;
+    
+    }
+    
+    
+    
+
+    /* Inicio */
+    #inicio {
+        height: 1000px;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .inicio-container {
+        flex-direction: column; 
+        padding: 0;
+    }
+
+    .inicio-left {
+        max-width: 100%; 
+    }
+
+    .inicio_right {
+        display: none;
+    }
+
+    .bienvenido{
+        display: none;
+    }
+
+    .slogan_inicio{
+        text-align: center;
+    }
+
+    .parrafo_inicio {
+        font-size: 1.2em;  
+        text-align: center;  
+    }
+
+    .boton_container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .boton_info a,
+    .boton_mapa a{
+        max-width: 100%;
+        padding: 15px 25px; 
+        font-size: 16pt;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Nosotros */
+    #nosotros {
+        height: 1700px;
+        padding: 20px;
+        background-image: none;    
+        background-color: #063647;
+        align-items: center;
+    }
+
+    .titulo_nosotros {
+        font-size: 30pt; 
+        color: #ffffff;
+    }
+
+    .nosotros-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imagen_nosotros1,
+    .imagen_nosotros2,
+    .imagen_nosotros3 {
+        max-width: 100%;
+    }
+
+    .texto1_nosotros,
+    .texto2_nosotros,
+    .texto3_nosotros {
+        font-size: 14pt;
+        margin: 10px 0;
+    }
+
+    /* Servicios */
+    #servicios {
+        height: 1700px;
+        padding: 20px;    
+        align-items: center;
+        justify-content: center;
+    }
+
+    .servicios-titulo {
+        font-size: 25pt; 
+        text-align: center;
+    }
+
+    .servicios-container {
+        flex-direction: column;
+        align-items: center; 
+        gap: 20px;
+        padding: 0;
+    }
+
+    .servicios-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px; 
+    }
+
+    .servicio-item1 a,
+    .servicio-item2 a,
+    .servicio-item3 a,
+    .servicio-item4 a,
+    .servicio-item5 a,
+    .servicio-item6 a {
+        font-weight: 600;
+        padding: 40px 80px; 
+        font-size: 16pt;
+    }
+
+    /* Contacto */
+    #contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .contacto-info{
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .contacto_titulo{
+        font-size: 30pt;        
+    }
+
+    .parrafo_contacto{
+        font-size: 14pt;
+        text-align: center;
+    }
+
+    .contacto_grid{
+        align-items: center;
+    }
+       
+    footer {
+        background-color: #003346;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+        
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    
+    #descarga {
+        background-color: #000000;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .descarga-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descarga-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+  .imagen_descarga{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+    .descarga-item1 a,
+    .descarga-item2 a {
+        width: 100%;
+        padding: 15px 25px;
+        font-size: 16pt;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    footer {
+        background-color: #003346;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+        max-width: 100%;
+        }
+    
+        .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+    
+    
+        }
+
+}
+
+
+    /* FOOTER */
+
+    footer {
+    background-color: #003346;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    }
+
+    .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+    }
+
+/* LOGIN PAGE */
+
+.login_body{
+    background-image: url(images/fondo_login.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.titulo_iniciar_sesion{
+    text-align: center;
+    font-size: 50pt;
+    max-width: 100%;
+    color: #003346;
+}
+
+#formulario_login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 1100PX;
+    max-width: 100%;
+}
+
+.login {
+    padding: 90px;
+    border-radius: 100px;
+    max-width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.login_label {
+    text-align: left;
+    display: block;
+    color: #003346;
+    font-size: 15pt;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.login_input {
+    width: calc(100% - 20px);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #003346;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.login_button {
+    margin-top: 15px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #D8135F;
+    color: #fff;
+    font-size: 15pt;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 35px;
+    text-decoration: none;
+
+}
+
+.login_button:hover {
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #25CCA4;
+    font-size: 15pt;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+
+
+/* REGISTRO PAGE */
+
+.register_body {
+    background-image: url(images/fondo_registro.png);    
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo_registro {
+    text-align: center;
+    font-size: 50pt;
+    max-width: 100%;
+    color: #003346;
+}
+
+#formulario_registro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 1500PX;
+    max-width: 100%;
+}
+
+.register {
+    padding: 90px;
+    border-radius: 100px;
+    max-width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    text-align: left;
+    display: block;
+    color: #003346;
+    font-size: 15pt;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #003346;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 15px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #25CCA4;
+    color: #fff;
+    font-size: 15pt;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 35px;
+    text-decoration: none;
+}
+
+button:hover {
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #25CCA4;
+    font-size: 15pt;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+/* CITAS */
+
+
+
+.cita_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.titulo_citas{
+    font-size: 30pt;
+    color: #ffffff;
+    background-color: #25CCA4;
+    border-radius: 45px;
+    padding: 20px;
+    font-family: 'Poppins';
+
+}
+
+.formulario_citas{
+    font-family: 'Poppins';
+    padding: 160px;
+}
+
+#doctor,
+#mes,
+#especialidad {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #003346;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-family: 'Poppins';
+
+}
+
+/* CALENDARIO */
+
+.calendario-container {
+    font-family: 'Poppins';
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.mes-titulo {
+    font-size: 30pt;
+    color: #ffffff;
+    background-color: #25CCA4;
+    border-radius: 45px;
+    padding: 20px;
+    font-family: 'Poppins';
+
+}
+
+.calendario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 9px;
+}
+
+.dia {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 35px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.dia-rojo {
+    background-color: #25CCA4;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 35px;
+    cursor: pointer;
+
+}
+
+
+.dia-verde {
+    background-color: #D8135F;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 35px;
+    cursor: pointer;
+
+}
+
+
+.leyenda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.rojo {
+    width: 20px;
+    height: 20px;
+    background-color: #D8135F;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.verde {
+    width: 20px;
+    height: 20px;
+    background-color: #25CCA4;
+    border-radius: 20px;
+}
+
+
+/* TRATAMIENTO */
+
+.medicamentos_body {
+    font-family: 'Poppins';
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+.titulo_tratamiento{
+    font-size: 30pt;
+    color: #ffffff;
+    background-color: #25CCA4;
+    border-radius: 45px;
+    padding: 25px 35px;
+    font-family: 'Poppins';
+
+}
+
+#medicamentos-lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+}
+
+.medicamento-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+
+.medicamento-nombre {
+    flex-grow: 1;
+    margin-right: 10px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 25px;
+    color: #003346;
+    margin-right: 30px;
+}
+
+.medicamento-activar {
+    background-color: #D8135F;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.medicamento-activar:hover {
+    background-color: #ffffff;
+    color: #D8135F;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.medicamento-configurar {
+    background-color: #25CCA4;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.medicamento-configurar:hover {
+    background-color: #ffffff;
+    color: #25CCA4;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* VACUNAS */
+
+
+.vacunas_body{
+
+    font-family: 'Poppins';
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+.titulo_vacunas{
+    font-size: 30pt;
+    color: #ffffff;
+    background-color: #D8135F;
+    border-radius: 45px;
+    padding: 25px 35px;
+    font-family: 'Poppins';
+    margin-left: 35px;
+}
+
+.subtitulo_vacunas{
+    font-size: 30px;
+    margin-left: 35px;
+}
+
+.vacunas-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.vacunas-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #25CCA4;
+    padding: 80px;
+    border-radius: 70px;
+}
+
+.vacuna-nombre{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.fecha_vacuna{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.vacuna-info{
+    background-color: #ffffff;
+    color: #25CCA4;
+    border-radius: 35px;
+}
+
+.vacuna-info:hover{
+    background-color: #D8135F;
+    color: #ffffff;
+    border-radius: 35px;
+}
+
+/* MEDICINAS */
+
+.fecha-receta{
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* DOCTOR */
+
+#doctor-lista{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.titulo_doctor{
+    margin-left: 30px;
+    font-size: 30pt;
+    color: #ffffff;
+    background-color: #003346;
+    border-radius: 45px;
+    padding: 25px 35px;
+    font-family: 'Poppins';
+
+}
+
+.doctor-container{
+    list-style: none;
+    text-align: left;
+}
+
+.doctor-item{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background-color: #25CCA4;
+    border-radius: 50px;
+    padding: 50px;
+    max-width: 100%;
+}
+
+.cita-doctor{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #D8135F;
+    padding: 30px 80px;
+    border-radius: 50px;
+}
+
+.cita-doctor:hover{
+    text-decoration: none;
+    color: #D8135F;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #ffffff;
+    padding: 30px 80px;
+    border-radius: 50px;
+}
+
+.especialidad_doctore{
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.imagen_doctor{
+    max-width: 300px;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}

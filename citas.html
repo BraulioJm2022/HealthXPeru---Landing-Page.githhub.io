@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthXPerú - Citas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="images/logo_icono.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body class="citas_body">
+
+    <header id="encabezado">
+        <div class="header-container">
+            <nav>
+                <ul>
+                    <li class="icono_header"><a href="index.html"><img src="images/icono.svg" alt=""></a></li>
+                </ul>
+            </nav>
+            <div class="botones_header">
+                <div class="Registrar">
+                    <a href="registro.html">Registrarse</a>
+                </div>
+                <div class="Iniciar">
+                    <a href="login.html">Iniciar Sesión</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+<div class="cita_container">
+
+    <section id="formulario_citas">
+        <div class="formulario_citas">
+            <form class="citas" action="#" method="post" class="citas-form">
+                <h1 class="titulo_citas">Solicitud de Citas</h1>
+
+
+
+                <label class="input_citas" for="especialidad">Especialidad:</label>
+                <select id="especialidad" name="especialidad" required>
+                    <option value="cardiologia">Cardiología</option>
+                    <option value="ginecologia">Gineocología</option>
+                    <option value="nutircionista">Nutricionista</option>
+
+                </select>
+
+
+                <label class="input_citas" for="mes">Mes:</label>
+                <select id="mes" name="mes" required>
+                    <option value="enero">Enero</option>
+                    <option value="febrero">Febrero</option>
+                </select>
+
+                <label class="input_citas" for="dia">Día:</label>
+                <input type="number" id="dia" name="dia" min="1" max="31" required>
+
+                <label class="input_citas" for="anio">Año:</label>
+                <input type="number" id="anio" name="anio" min="2023" required>
+
+                <button type="submit">Solicitar Cita</button>
+            </form>
+        </div>
+    </section>
+</div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
